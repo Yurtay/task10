@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=League+Gothic&display=swap');
+
+body {
+  background: rgb(167, 211, 178);
+  font-family: 'Diplomata SC', cursive;
+  font-family: 'League Gothic', sans-serif;
+}
+
+.card {
+    max-width: 750px;
+    background: rgb(167, 211, 178);
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Diplomata SC', cursive;
+    font-family: 'League Gothic', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.shapka {
+    display: flex;
+    color: rgb(253, 253, 252);
+    /* background-color: rgb(127, 150, 212);; */
+    background-image: url(https://www.incimages.com/uploaded_files/image/1024x576/getty_655652064_246411.jpg);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.info-text {
+    padding: 10px;
+}
+
+.ava {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.block {
+    background: yellow;
+    background-image: url(/10/img/blok.jpg);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.table-1 {
+    margin: auto;
+
+}
+
+.table-2 {
+    margin: auto;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+.table-1 td {
+    padding-right: 30px;
+}
+
+.table-2 td {
+    padding-right: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.table-2 th {
+    padding: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(34, 16, 16);
+    }
+
+.socia {
+    display: flex;
+}
+
+.social {
+    width: 10%;
+    margin: auto;
+}
+
+.iconka {
+    width: 100%;
+}
+
+.social a {
+    text-decoration: none;
+}
+
